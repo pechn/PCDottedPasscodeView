@@ -12,7 +12,7 @@
 		048FFAC9CD35692877FF8307FA2EB6C9 /* PCDottedPasscodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E8382F3D6556EC76F4C1BD8831F887 /* PCDottedPasscodeView-dummy.m */; };
 		16640710338F9F6EAB5F7788F6F04B70 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19D955C7914E46459DADF9267CDAC0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		35326D11C3BBC3C0C1A02D9F3763CBD8 /* PCPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26816A2CAB154236804025E06E3C369D /* PCPasscodeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35326D11C3BBC3C0C1A02D9F3763CBD8 /* PCDottedPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26816A2CAB154236804025E06E3C369D /* PCDottedPasscodeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35B4E0B73A1DF1DA506EE1F9816F7DCF /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88C74D733720F86716DAF1B048177E /* UIImage+Compare.m */; };
 		3ADB44E1EBA2553E1D0F9CA9871A4C0C /* Pods-PCDottedPasscodeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F1265C4B0D2EC11804533C6F633BA6 /* Pods-PCDottedPasscodeView_Tests-dummy.m */; };
 		3F9FD8E08B36DF062747F1E059022C0A /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3431FA9A964323EF62A91464FF9F9F01 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -32,7 +32,7 @@
 		D507DFCE08B1F23B1C1BFB604EEB99F6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4396A99C0AAE10F414B527B80FC1DACB /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D9097AEC59DACB33207701AAFC3592D6 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */; };
 		DBBFE25DB23819D1A2D5D6A5D52CF391 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 721CC07FAB91C1143E71B21BB3E20BC6 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCB7FBC81CD3A3112D1EBF75E67D99B2 /* PCPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F604F8230466724A74060DB728A04C5 /* PCPasscodeView.m */; };
+		DCB7FBC81CD3A3112D1EBF75E67D99B2 /* PCDottedPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F604F8230466724A74060DB728A04C5 /* PCDottedPasscodeView.m */; };
 		F634C3299747A7C98136E1857441AEF6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD9EBDCF7067F613B689BB4D2D7F07D /* SwiftSupport.swift */; };
 		F9607D78217390558962ECB72C0B6B6A /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FDEAD46C567ABFA3157A2CA278071E70 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
@@ -66,19 +66,19 @@
 		175E07AEBDAD15ABC9427FE1FC5774C5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		17BE969126FF0EDA7A0F3522919CB4C5 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		1BE2D29E71311C813B2E0931474C5145 /* PCPasscodeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PCPasscodeTextField.m; path = PCDottedPasscodeView/Classes/PCPasscodeTextField.m; sourceTree = "<group>"; };
-		1F604F8230466724A74060DB728A04C5 /* PCPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PCPasscodeView.m; path = PCDottedPasscodeView/Classes/PCPasscodeView.m; sourceTree = "<group>"; };
+		1F604F8230466724A74060DB728A04C5 /* PCDottedPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PCDottedPasscodeView.m; path = PCDottedPasscodeView/Classes/PCDottedPasscodeView.m; sourceTree = "<group>"; };
 		215EDDEFDCFC969805455476FCAF1CB1 /* Pods-PCDottedPasscodeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PCDottedPasscodeView_Example-dummy.m"; sourceTree = "<group>"; };
 		223646B4DE9C60701D09C34651C350DC /* Pods-PCDottedPasscodeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PCDottedPasscodeView_Tests.modulemap"; sourceTree = "<group>"; };
 		23A5D64A8DED45B714F8DF2F0AFAC719 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		26816A2CAB154236804025E06E3C369D /* PCPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCPasscodeView.h; path = PCDottedPasscodeView/Classes/PCPasscodeView.h; sourceTree = "<group>"; };
+		26816A2CAB154236804025E06E3C369D /* PCDottedPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCDottedPasscodeView.h; path = PCDottedPasscodeView/Classes/PCDottedPasscodeView.h; sourceTree = "<group>"; };
 		26F6BEA0E02B5D7926B4B2473FEED9B8 /* Pods-PCDottedPasscodeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PCDottedPasscodeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2F2090D41E059313BE008A25C52BFC2A /* libPods-PCDottedPasscodeView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PCDottedPasscodeView_Tests.a"; path = "libPods-PCDottedPasscodeView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FD7E50BFDD2B378D51CF4A79919BE68 /* libPCDottedPasscodeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPCDottedPasscodeView.a; path = libPCDottedPasscodeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2090D41E059313BE008A25C52BFC2A /* libPods-PCDottedPasscodeView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PCDottedPasscodeView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD7E50BFDD2B378D51CF4A79919BE68 /* libPCDottedPasscodeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPCDottedPasscodeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C8994AE9F91EE3245CA0A5BA3F798A /* Pods-PCDottedPasscodeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PCDottedPasscodeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3431FA9A964323EF62A91464FF9F9F01 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSnapshotTestCase-umbrella.h"; path = "../../Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		384A1B103C9D183D6A1C08DD450C61CA /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		3EBEE8F05C255B1FE130E5732C887E5A /* Pods-PCDottedPasscodeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PCDottedPasscodeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FC862103AB28B4AD7702AA59FE44D0D /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC862103AB28B4AD7702AA59FE44D0D /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		430369CB4FFEDA2AE718DC77DE7DE45B /* Pods-PCDottedPasscodeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDottedPasscodeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4396A99C0AAE10F414B527B80FC1DACB /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		45E8382F3D6556EC76F4C1BD8831F887 /* PCDottedPasscodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PCDottedPasscodeView-dummy.m"; sourceTree = "<group>"; };
@@ -92,12 +92,12 @@
 		721CC07FAB91C1143E71B21BB3E20BC6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		758DA1CBC128A58D65023AE2318D1257 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		7EE1CE1F327B2B227DA1A79D6F225BA2 /* Pods-PCDottedPasscodeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDottedPasscodeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7F00CD683833512CDD2DCB9B5C644813 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F00CD683833512CDD2DCB9B5C644813 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		822C3163959F4F29E924B7F7464800A1 /* Pods-PCDottedPasscodeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PCDottedPasscodeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8575814874877CB96D9A13C7BBD6AB1A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		8EE028F6B5039F90E0128E4B2EAC8CE3 /* PCDottedPasscodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PCDottedPasscodeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EE028F6B5039F90E0128E4B2EAC8CE3 /* PCDottedPasscodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PCDottedPasscodeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		926E4466FE41ACD4E051AA31099B9570 /* Pods-PCDottedPasscodeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDottedPasscodeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A85C63A262A30521852A85B4363F28D5 /* PCDottedPasscodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PCDottedPasscodeView-prefix.pch"; sourceTree = "<group>"; };
 		AB63FCA26C0B68BEF4E59E2524937F70 /* Pods-PCDottedPasscodeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PCDottedPasscodeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABA2D51F9E402DA128368C98CE590CCE /* Pods-PCDottedPasscodeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PCDottedPasscodeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 		E949E7839DE72E87B82527E88A39763E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		EB604D9A395D34DE46B230687E461890 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		ECCD90D40FFFBDD2320F19F6A065F11D /* PCPasscodeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCPasscodeTextField.h; path = PCDottedPasscodeView/Classes/PCPasscodeTextField.h; sourceTree = "<group>"; };
-		F1D58B5C191CA24BC602368CFD57B8B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F1E885A60A6A483247E770B195A004D7 /* libPods-PCDottedPasscodeView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PCDottedPasscodeView_Example.a"; path = "libPods-PCDottedPasscodeView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D58B5C191CA24BC602368CFD57B8B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F1E885A60A6A483247E770B195A004D7 /* libPods-PCDottedPasscodeView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PCDottedPasscodeView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B58D5BA3EB09C98A4C815311C792DC /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		F55DE1BF0CABE6ADE14448530503CDF7 /* Pods-PCDottedPasscodeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PCDottedPasscodeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,8 +228,8 @@
 			children = (
 				ECCD90D40FFFBDD2320F19F6A065F11D /* PCPasscodeTextField.h */,
 				1BE2D29E71311C813B2E0931474C5145 /* PCPasscodeTextField.m */,
-				26816A2CAB154236804025E06E3C369D /* PCPasscodeView.h */,
-				1F604F8230466724A74060DB728A04C5 /* PCPasscodeView.m */,
+				26816A2CAB154236804025E06E3C369D /* PCDottedPasscodeView.h */,
+				1F604F8230466724A74060DB728A04C5 /* PCDottedPasscodeView.m */,
 				8CD573D8E682319E3519CC0AE289D91C /* Pod */,
 				354FF3E005A4816020F279729613C523 /* Support Files */,
 			);
@@ -331,7 +331,6 @@
 				9102BE1663BC557D12A45F1110724C24 /* Support Files */,
 				58A1305D922FF21E64916EBF07C5A689 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -351,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CB9AD23D6AEF4BA608DD29D9519761 /* PCPasscodeTextField.h in Headers */,
-				35326D11C3BBC3C0C1A02D9F3763CBD8 /* PCPasscodeView.h in Headers */,
+				35326D11C3BBC3C0C1A02D9F3763CBD8 /* PCDottedPasscodeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +500,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -536,7 +534,7 @@
 			files = (
 				048FFAC9CD35692877FF8307FA2EB6C9 /* PCDottedPasscodeView-dummy.m in Sources */,
 				6C518778A908BF728C5D6EC8CF2CC377 /* PCPasscodeTextField.m in Sources */,
-				DCB7FBC81CD3A3112D1EBF75E67D99B2 /* PCPasscodeView.m in Sources */,
+				DCB7FBC81CD3A3112D1EBF75E67D99B2 /* PCDottedPasscodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

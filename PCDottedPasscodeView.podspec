@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PCDottedPasscodeView'
-  s.version          = '0.1.0'
-  s.summary          = 'A custome dotted passcode view to enable entering numeric passcodes.'
+  s.version          = '0.1.1'
+  s.summary          = 'A custome dotted passcode view to enable entering numeric passcode.'
 
   s.description      = <<-DESC
-A custome dotted passcode view to enable entering numeric passcodes.
+PCDottedPasscodeView enables entering dotted passcode for special reasons such as a 6-digit bank passcode. The dot color/count/size can also be configured through XIB.
                        DESC
 
   s.homepage         = 'https://github.com/pechn/PCDottedPasscodeView'
