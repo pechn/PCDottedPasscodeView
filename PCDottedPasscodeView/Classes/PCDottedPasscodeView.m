@@ -149,6 +149,7 @@
         _textField.textColor = [UIColor whiteColor];
         _textField.autocapitalizationType = UITextAutocapitalizationTypeNone;
         _textField.keyboardType = UIKeyboardTypeNumberPad;
+        _textField.delegate = (id)self;
         
         [_textField addTarget:self action:@selector(textFieldDidChanged:) forControlEvents:UIControlEventEditingChanged];
     }
@@ -168,6 +169,18 @@
     
     if (textField.text.length == self.dotCount) {
         self.passcodeCompleted ? self.passcodeCompleted(textField.text) : NO;
+    }
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    if ([string isEqualToString:@"\n"]) {
+        return NO;
+    } else if (string.length == 0) {
+        return YES;
+    } else if (textField.text.length >= self.dotCount) {
+        return NO;
+    } else {
+        return YES;
     }
 }
 

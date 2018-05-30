@@ -9,7 +9,8 @@
 #import "PCPasscodeTextField.h"
 
 IB_DESIGNABLE
-@interface PCDottedPasscodeView : UIView
+
+@interface PCDottedPasscodeView : UIView<UITextFieldDelegate>
 
 @property(nonatomic, strong) PCPasscodeTextField *textField;
 
