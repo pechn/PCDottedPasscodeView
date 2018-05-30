@@ -9,7 +9,7 @@
 #import "PCPasscodeTextField.h"
 
 IB_DESIGNABLE
-
+NS_ASSUME_NONNULL_BEGIN
 @interface PCDottedPasscodeView : UIView<UITextFieldDelegate>
 
 @property(nonatomic, strong) PCPasscodeTextField *textField;
@@ -25,3 +25,4 @@ IB_DESIGNABLE
 - (void)clearInputs;
 
 @end
+NS_ASSUME_NONNULL_END
