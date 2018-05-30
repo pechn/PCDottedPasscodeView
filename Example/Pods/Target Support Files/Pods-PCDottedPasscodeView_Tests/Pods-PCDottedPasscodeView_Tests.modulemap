@@ -1,0 +1,6 @@
+module Pods_PCDottedPasscodeView_Tests {
+  umbrella header "Pods-PCDottedPasscodeView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

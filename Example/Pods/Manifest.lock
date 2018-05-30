@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PCDottedPasscodeView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PCDottedPasscodeView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PCDottedPasscodeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PCDottedPasscodeView: 445520405da73b4efc90d8e5f19e17c3a35ecece
+
+PODFILE CHECKSUM: 95578ea0bc01832cffb89f18791f7eb7e19c04ca
+
+COCOAPODS: 1.5.3
