@@ -1,26 +1,26 @@
 //
-//  PCPasscodeView.m
+//  PCDottedPasscodeView.m
 //  PCDottedPasscodeView
 //
 //  Created by Peter Chen on 05/30/2018.
 //  Copyright (c) 2018 Peter Chen. All rights reserved.
 //
 
-#import "PCPasscodeView.h"
+#import "PCDottedPasscodeView.h"
 
 #define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define kDotCountDefault 6
 #define kDotWidthDefault 14.f
 #define kFieldHeightDefault 45.f
 
-@interface PCPasscodeView ()
+@interface PCDottedPasscodeView ()
 
 @property(nonatomic, strong) NSMutableArray *dotArray;
 @property(nonatomic, assign) CGRect previousFrame;
 
 @end
 
-@implementation PCPasscodeView
+@implementation PCDottedPasscodeView
 
 - (id)init {
     return [self initWithFrame:CGRectZero];

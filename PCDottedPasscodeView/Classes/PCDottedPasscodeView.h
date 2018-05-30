@@ -1,5 +1,5 @@
 //
-//  PCPasscodeView.h
+//  PCDottedPasscodeView.h
 //  PCDottedPasscodeView
 //
 //  Created by Peter Chen on 05/30/2018.
@@ -9,7 +9,7 @@
 #import "PCPasscodeTextField.h"
 
 IB_DESIGNABLE
-@interface PCPasscodeView : UIView
+@interface PCDottedPasscodeView : UIView
 
 @property(nonatomic, strong) PCPasscodeTextField *textField;
 
