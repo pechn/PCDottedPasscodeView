@@ -70,7 +70,8 @@
     self.translatesAutoresizingMaskIntoConstraints = NO;
     
     [self addSubview:self.textField];
-    [self.textField becomeFirstResponder];
+    // Use performSelector to let textField becomeFirstResponder in an appropriate time
+    [self.textField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0];
     
     [self initDotView];
 }
