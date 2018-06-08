@@ -73,14 +73,13 @@
     
     /**
      * Best Practices - not to let textField become first responder here as it may cause some weird behaviors
-     * You should call becomeFirstResponder in the view controller's viewWillApear() callback method as below:
-     * [self.[PCDottedPasscodeView object].textField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0]
+     * You should call becomeFirstResponder in the view controller's viewDidApear() callback method as below:
+     * [self.[PCDottedPasscodeView object].textField becomeFirstResponder];
      * And then resign the first responder in viewWillDisappear():
      * [self.[PCDottedPasscodeView object].textField resignFirstResponder];
      */
     
-    // Use performSelector to let textField becomeFirstResponder in an appropriate time
-    // [self.textField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0];
+    // [self.textField becomeFirstResponder];
     
     [self initDotView];
 }
