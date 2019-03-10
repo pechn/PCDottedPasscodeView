@@ -153,9 +153,9 @@
         _textField.translatesAutoresizingMaskIntoConstraints = NO;
         _textField.frame = CGRectMake(0, 0, self.frame.size.width, kFieldHeightDefault);
         // _textField.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-        _textField.backgroundColor = [UIColor whiteColor];
-        _textField.tintColor = [UIColor whiteColor];
-        _textField.textColor = [UIColor whiteColor];
+        _textField.backgroundColor = [UIColor clearColor];
+        _textField.tintColor = [UIColor clearColor];
+        _textField.textColor = [UIColor clearColor];
         _textField.autocapitalizationType = UITextAutocapitalizationTypeNone;
         _textField.keyboardType = UIKeyboardTypeNumberPad;
         _textField.delegate = (id)self;

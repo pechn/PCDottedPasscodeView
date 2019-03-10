@@ -14,4 +14,9 @@
     return NO;
 }
 
+// hide the cursor
+- (CGRect)caretRectForPosition:(UITextPosition *)position {
+    return CGRectZero;
+}
+
 @end
