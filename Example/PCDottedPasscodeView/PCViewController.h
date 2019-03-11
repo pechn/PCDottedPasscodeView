@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+#import "PCDottedPasscodeView.h"
+
 @interface PCViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet PCDottedPasscodeView *viewPasscode;
 
 @end

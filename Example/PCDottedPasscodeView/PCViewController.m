@@ -14,16 +14,27 @@
 
 @implementation PCViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.viewPasscode.passcodeCompleted = ^(NSString *passcode) {
+        NSLog(@"passcode input: %@", passcode);
+        [self.viewPasscode clearInputs];
+    };
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self.viewPasscode.textField becomeFirstResponder];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.viewPasscode.textField resignFirstResponder];
 }
 
 @end

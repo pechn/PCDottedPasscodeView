@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PCDottedPasscodeView'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'A custome dotted passcode view to enable entering numeric passcode.'
 
   s.description      = <<-DESC

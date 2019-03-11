@@ -6,7 +6,5 @@ target 'PCDottedPasscodeView_Example' do
 
   target 'PCDottedPasscodeView_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end

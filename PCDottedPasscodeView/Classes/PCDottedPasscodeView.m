@@ -125,6 +125,12 @@
         dotView.layer.cornerRadius = self.dotWidth / 2.f;
         dotView.layer.borderColor = [self.dotColor CGColor];
         dotView.layer.borderWidth = 2.f;
+        dotView.layer.masksToBounds = YES;
+        
+        // make the circle edge more smooth
+        dotView.layer.shouldRasterize = YES;
+        dotView.layer.rasterizationScale = 3.0 * [UIScreen mainScreen].scale;
+        
         dotView.clipsToBounds = YES;
         [self addSubview:dotView];
         
