@@ -129,7 +129,7 @@
         
         // make the circle edge more smooth
         dotView.layer.shouldRasterize = YES;
-        dotView.layer.rasterizationScale = 3.0 * [UIScreen mainScreen].scale;
+        dotView.layer.rasterizationScale = 2.0 * [UIScreen mainScreen].scale;
         
         dotView.clipsToBounds = YES;
         [self addSubview:dotView];
